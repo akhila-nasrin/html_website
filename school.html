@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<style>
+    body{
+    margin: 0%;
+    padding: 0%;
+   }
+   nav{
+    background-color: green;
+    position: fixed;
+   }
+   .firsth1{
+    color: white;
+    margin: auto;
+    margin-right:680px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+
+    
+   }
+   .firstpara{
+    color: grey;
+    margin: 20px;
+    margin-right: 650px;
+    
+   }
+   .firstbtn{
+    color: white;
+    background-color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 800px;
+    border-radius: 50px; 
+    
+   }
+   .main1{
+    display: flex;
+   }
+   
+   .main{
+        width: 100%;
+        background-image: url(/exam/bulb.jpg);
+    }
+    .maincontent h4{
+        padding-left: 100px;
+        padding-top: 50px;
+        color: red;
+        font-family:Arial, sans-serif;
+        font-size: medium;
+        font-weight:bold;
+        line-height: 1.6;
+    }
+    .maincontent h1{
+        padding-left: 75px;
+        color: darkblue;
+        font-size: xx-large;
+        font-family:Arial, sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+
+    }
+   
+    .maincontent p{
+         padding-left: 100px;
+         color: rgb(107, 107, 107);
+         line-height: 1.5;
+         font-size:medium;
+         font-family:Arial, sans-serif;
+ }  
+ .iframe{
+    padding-right: 10px;
+    margin-top: 210px;
+    height: 300px;
+    width: 570px;
+    margin-left: 20px;
+ }
+ .second{
+    background-image:url(/exam/doodle.jpg);
+    
+ }
+
+ .event-card img {
+      width: 100%;
+      height: auto;
+    }
+    .event-card {
+      margin-bottom: 20px;
+    }
+    .event-date {
+      background-color: darkblue;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+
+    .third{
+  background-image: url(/exam/bulb.jpg);
+}
+
+    .container {
+    
+    padding: 20px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.containers {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.social-streams {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.new{
+  display: flex;
+  justify-content: space-between;
+}
+.adm{
+  padding-left: 170px;
+  color: black;
+  padding-top: 20px;
+}
+.bbtn{
+  
+  background-color: darkblue;
+  padding-top: 20px;
+
+  color: white;
+    background-color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 50px; 
+    
+    
+  
+  
+}
+.fcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #0a47a3;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 80px;
+    min-width: 20px;
+    color: white;
+    
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section address {
+    font-style: normal;
+    line-height: 1.8;
+    color: white;
+}
+
+.footer-section address a {
+    color: #ffffff;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section address a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.footer-section un{
+  text-decoration: none;
+}
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid ">
+              <a class="navbar-brand mx-auto" href="#"><img src="/logo (1).png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav  small fw-bold mx-auto">
+                
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Our School</a></li>
+                      <li><a class="dropdown-item" href="#">Management</a></li>
+                      <li><a class="dropdown-item" href="#">School Information</a></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ACADEMICS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pre School</a></li>
+                      <li><a class="dropdown-item" href="#">Junior School</a></li>
+                      <li><a class="dropdown-item" href="#">Senior School</a></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ADMISSIONS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Admission Process</a></li>
+                      <li><a class="dropdown-item" href="#">Online Admission</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      STUDENT LIFE
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Art & Craft</a></li>
+                      <li><a class="dropdown-item" href="#">Musical Instruments Training</a></li>
+                      <li><a class="dropdown-item" href="#">School Radio</a></li>
+                      <li><a class="dropdown-item" href="#">Teakwando</a></li>
+                      <li><a class="dropdown-item" href="#">Chess</a></li>
+
+
+                    </ul>
+                  </li>
+
+                     <li class="nav-item">
+                    <a class="nav-link active" href="#">NEWS & EVENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">CONTACT</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <section>
+            <div class="container-fluid">
+            <div class="row">
+            <div class="col-12">
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/a.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h1 class="firsth1">Admission Started For 2023-2024</h1>
+                          <p class="firstpara">We have started accepting applications for the next academic year.Admissions are available for classes LKG to X.</p>
+                          <button type="submit" class="firstbtn">Register Now</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/a.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="firsth1">A Perfect Future for Enhancing <br> Your Child Future</h1>
+                            <p class="firstpara">We have started accepting applications for the next academic year.Admissions are available for classes LKG to X.</p>
+                            <button type="submit" class="firstbtn">Register Now</button>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/e.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="firsth1">Helping Your Child Without Any Burden</h1>
+                            <p class="firstpara">We have started accepting applications for the next academic year.Admissions are available for classes LKG to X.</p>
+                            <button type="submit" class="firstbtn">Register Now</button>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="main1">
+                <div class="maincontent">
+                <h4>Apex International School</h4>
+                <h1>THE SCHOOL WITH INTERNATIONAL <br> STANDARD</h1>
+
+                <p>Apex International school is a secondary school affiliated to CBSE, Delhi, established <br> in the year 2005. It is situated at Odumbra, in Olavanna Panchayath, Calicut. The <br> school is located in a sprawling 3 acre green campus, 1.5 km from mini bye-pass. <br> It isa co-educational institution caters to students from K.G to Std X. The mission <br> of the school is to Promote Education that builds the fundamental characters such  <br>as honesty, compassion, courage, persistence and responsibility. The management <br> envisage a completely different school with personalized care to develop intellectual <br> and social skills. The school is an extension of family where we bring out the best <br> out of the students with the partnership of parents. School give importance to, <br> brotherhood, physical well-being and hygiene and inculcate civic sense among <br>students. Training in co-curricular activities is given to every child focusing on the <br> holistic development of the child. The school want students to enjoy every moment <br>of their stay at school and create a love for learning and develop a sense of self <br> esteem.</p>
+            </div>
+                <div class="video">
+                <iframe class="iframe" src="https://www.youtube.com/embed/s3l7IsnY_jk" title="Apex International School - Best CBSE School Kozhikode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </div>
+          
+           
+        </section>
+
+        <section class="second">
+
+
+            <div class="container mt-5">
+            <h4 class="text-center text-danger fs-6">Apex International School</h4>
+                <h2 class="text-center pt-0">News & Events</h2>
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card event-card shadow">
+                      <div class="event-date">28<br>Mar</div>
+                      <img src="/chess.jpg" alt="Chess">
+                      <div class="card-body">
+                        <h5 class="card-title">Chess</h5>
+                        <p class="card-text text-danger">Feb 19, 2018</p>
+                        <p class="card-text">Chess was introduced in our school because we believe that it directly contributes to academic performance. Chess makes kids smarter, sharper and more.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 ">
+                    <div class="card event-card shadow">
+                      <div class="event-date">28<br>Mar</div>
+                      <img src="/claymodeling.jpg" alt="Clay Modeling Competition">
+                      <div class="card-body">
+                        <h5 class="card-title">Clay Modeling Competition</h5>
+                        <p class="card-text text-danger">Feb 19, 2018</p>
+                        <p class="card-text">Clay Modelling for kids. Clay Modelling Flower Plant | Clay modelling for kids children | Craft for kids. Clay modelling apple for kids (playdoh).</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card event-card shadow">
+                      <div class="event-date">28<br>Mar</div>
+                      <img src="/skiting.jpg" alt="Skating">
+                      <div class="card-body">
+                        <h5 class="card-title">Skating</h5>
+                        <p class="card-text text-danger">Feb 19, 2018</p>
+                        <p class="card-text">Learning the Basics. Put on your skating equipment. The only equipment you really need to roller skate is a pair of skates that fit you. Assume the...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+        <section class="third">
+
+          <div class="container">
+              <h1>Come learn, explore and play at Apex International School this <br> summer!</h1>
+
+              <div class="grid-container">
+                  <div class="grid-item">
+                      <img src="/cp-lab.jpg" alt="Computer Lab">
+                  </div>
+                  <div class="grid-item">
+                      <img src="/c-lab.jpg" alt="Chemistry Lab">
+                  </div>
+                  <div class="grid-item">
+                      <img src="/playschool.jpg" alt="Play School">
+                  </div>
+                  <div class="grid-item">
+                      <img src="/martial.jpg" alt="Another Activity">
+                  </div>
+                  <div class="grid-item">
+                      <img src="/c-lab.jpg" alt="Another Activity">
+                  </div>
+                  <div class="grid-item">
+                    <img src="/music.jpg" alt="Another Activity">
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="fifth">
+        <div class="containers">
+          <h4 class="h4 text-danger fs-6">Share you Academy with Pride</h4>
+          <h1>See our full social stream here!</h1>
+          <img src="/download (1).png" alt="">
+          <div class="social-streams">
+              <div class="social-items">
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FApexInternationalSchool&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+                  width="410" 
+                  height="500" 
+                  style="border:none;overflow:hidden" 
+                  scrolling="no" 
+                  frameborder="0" 
+                  allowTransparency="true" 
+                  allow="encrypted-media"></iframe>
+              </div>
+              <div class="social-items">
+                <iframe width="560" height="500" src="https://www.youtube.com/embed/MabmEwvxDGc" title="19th School day Celebration - Apex International School" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  
+  
+                  
+              </div>
+          </div>
+      </div>
+      </section>
+      <hr>
+      <section class="sixth">
+        <div class="new">
+          <div class="adm">
+            <h4>Admission Started For 2024</h4>
+          </div>
+          <div class="btn">
+            <button class="bbtn" type="submit">Apply Online</button>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="footer">
+        <div class="fcontainer">
+            <div class="footer-section">
+                <h3 class="un">Students Help</h3>
+                <ul>
+                    <li><a href="#">Students Login</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Transfer Certificate</a></li>
+                    <li><a href="#">Results & Achievements</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Apex</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Faculty & Staffs</a></li>
+                    <li><a href="#">School Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Academics</h3>
+                <ul>
+                    <li><a href="#">Pre School</a></li>
+                    <li><a href="#">Junior School</a></li>
+                    <li><a href="#">Senior School</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <address>
+                    APEX INTERNATIONAL SCHOOL,<br>
+                    Odumbra, Olavanna,<br>
+                    P.O, Calicut-673 025,<br>
+                    Kerala, India.<br>
+                    Phone: 0495 2965004, 0495 2432811<br>
+                    Email: <a href="mailto:info@apexinternationalschool.org">info@apexinternationalschool.org</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
